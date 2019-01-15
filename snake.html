@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snack</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/snake.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="map"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-center" id="card-header">Your Score</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="text-center" id="card-body">0</h1>
+                    </div>
+                    <div class="card-footer">
+                        <br />
+                        <ol>
+                            <li>Don't run the snake into the wall: you die.</li>
+                            <li>Use your cursor keys: up(&uarr;), left(&larr;), right(&rarr;), and down(&darr;).</li>
+                            <li>Eat the <span id="icon">&#9632;</span> to gain points.</li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js/snake.js"></script>
+
+</html>
